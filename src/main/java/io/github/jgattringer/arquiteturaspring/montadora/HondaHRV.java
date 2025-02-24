@@ -14,7 +14,11 @@ public class HondaHRV extends Car{
 
     }
 
-
     public HondaHRV(Engine engine) {
+        super();
+        setModel("HondaHRV");
+        setColor(Color.BLACK);
+        setEngine(engine);
+        setManufacturedBy(ManufacturedBy.HONDA);
     }
 }
